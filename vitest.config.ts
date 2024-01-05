@@ -5,6 +5,6 @@ import configuration from './vite.config';
 export default defineConfig({
   ...configuration,
   test: {
-    include: ['*.test.ts'],
+    include: ['./src/**/*.test.ts'],
   },
 });
